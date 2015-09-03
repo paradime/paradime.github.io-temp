@@ -69,36 +69,36 @@
                 .caption-content
                   %i.fa.fa-search-plus.fa-3x
               %img.img-responsive{:alt => "", :src => "img/portfolio/rubocop.png"}
-/          .col-sm-4.portfolio-item
-/            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
-/              .caption
-/                .caption-content
-/                  %i.fa.fa-search-plus.fa-3x
-/              %img.img-responsive{:alt => "", :src => "img/portfolio/cake.png"}
-/          .col-sm-4.portfolio-item
-/            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal3"}
-/              .caption
-/                .caption-content
-/                  %i.fa.fa-search-plus.fa-3x
-/              %img.img-responsive{:alt => "", :src => "img/portfolio/circus.png"}
-/          .col-sm-4.portfolio-item
-/            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal4"}
-/              .caption
-/                .caption-content
-/                  %i.fa.fa-search-plus.fa-3x
-/              %img.img-responsive{:alt => "", :src => "img/portfolio/game.png"}
-/          .col-sm-4.portfolio-item
-/            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
-/              .caption
-/                .caption-content
-/                  %i.fa.fa-search-plus.fa-3x
-/              %img.img-responsive{:alt => "", :src => "img/portfolio/safe.png"}
-/          .col-sm-4.portfolio-item
-/            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
-/              .caption
-/                .caption-content
-/                  %i.fa.fa-search-plus.fa-3x
-/              %img.img-responsive{:alt => "", :src => "img/portfolio/submarine.png"}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/cake.png"}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal3"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/circus.png"}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal4"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/game.png"}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal5"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/safe.png"}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal6"}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus.fa-3x
+              %img.img-responsive{:alt => "", :src => "img/portfolio/submarine.png"}
     / About Section
     %section#about.success
       .container
@@ -107,9 +107,9 @@
             %h2 About
             %hr.star-light
         .row
-          .col-lg-4.col-lg-offset-2
-            / TODO: Change this so it's Image Text for 4 rows
-            %h3 About Myself
+          .col-lg-6
+            %h4 About Me:
+          .col-lg-6
             %p
               I'm a 3rd year student at the Rochester Institute of Technology.
               I'm studying software engineering with a minor in computer science and communications.
@@ -117,25 +117,35 @@
               taught myself the basics of a web framework (literally) overnight and have spent most
               of my time learning how to learn quicker, faster, and more effectively.
               I have two years experience building web applications for companies in the health domain.
-            %p
-              If you're looking to hire myself, I can offer competitive rates for a junior software
-              engineer and web designer position. I understand what I can (and cannot do) and can
-              provide reasonable estimations for my work because of the methods that I use.
-          .col-lg-4
+        .row
+          .col-lg-12
             %h3 Methodology
-            %h4 Agile (Extreme Programming)
+          .col-lg-6
+            %h4 Agile:
+          .col-lg-6
             %p
               I subscribe to the philosophy that it's impossible to know all of the ins and outs of a
               finished project before building it. Because of this I follow an agile methodology allowing
               changes in the design to be easily made. In addition, I use tools to ensure that time
               can be spent developing and fixing issues without worrying about one small change breaking
               and entire ssytem.
-            %h4 Pomodoros
+        .row
+          .col-lg-6
+            %img{src: 'img/technique_pomodoro.jpg'}
+          .col-lg-6
             %p
               Pomodoros is a form of time management to easily measure out work that can be done by looking
               at previous work. It is a form of time-boxing to see how time can be used most efficiently.
               Because I use this technique, it's very easy to guage how long tasks should take along with
               being able to analyze weak points in my process and make improvements in the future.
+        .row
+          .col-lg-6
+            %h4 IMAGE3
+          .col-lg-6
+            %p
+              If you're looking to hire myself, I can offer competitive rates for a junior software
+              engineer and web designer position. I understand what I can (and cannot do) and can
+              provide reasonable estimations for my work because of the methods that I use.
           .col-lg-8.col-lg-offset-2.text-center
             %a.btn.btn-lg.btn-outline{:href => "mailto:BryonWilkins94@gmail.com"}
               %i.fa.fa-download
@@ -148,12 +158,13 @@
             %h2 Contact Me
             %hr.star-primary
         .row
-          .col-lg-8.col-lg-offset-2
-            %h3 
+          .col-lg-3.col-lg-offset-3
+            %h3
               %a{href: "mailto:BryonWilkins94@gmail.com"} Email
             %h3
               %a{href: "https://www.linkedin.com/in/bryonwilkins"}LinkedIn
-            %h3 
+          .col-lg-3{align: 'right'}
+            %h3
               %a{href: "http://www.github.com/paradime"}GitHub
             %h3
               %a{href: "http://www.twitter.com/BryonRWilkins"}Twitter
@@ -191,7 +202,7 @@
         .container
           .row
             .footer-col.col-md-4
-              %h3 Location
+              %h3 Current Location
               %p
                 %br Columbus, OH 43206
             .footer-col.col-md-4
@@ -255,7 +266,7 @@
                       %li
                         Link:
                         %strong
-                          %a{href: "https://github.com/paircolumbus/RefactoringWithRubocop"}}
+                          %a{href: "https://github.com/paircolumbus/RefactoringWithRubocop"} Github
                     %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
                       %i.fa.fa-times
                       Close
