@@ -6,7 +6,7 @@
         %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
           %meta{:content => "", :name => "description"}
             %meta{:content => "", :name => "author"}
-              %title Freelancer - Start Bootstrap Theme
+              %title Bryon Wilkins - Freelancer
               / Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/
               %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}
                 / Custom CSS
@@ -54,7 +54,7 @@
               .intro-text
                 %span.name Bryon Wilkins
                 %hr.star-light
-                  %span.skills Web Developer - Ruby Enthusiast - User Experience Designer
+                  %span.skills Web Developer - Ruby Enthusiast - Software Engineer
     / Portfolio Grid Section
     %section#portfolio
       .container
@@ -68,7 +68,7 @@
               .caption
                 .caption-content
                   %i.fa.fa-search-plus.fa-3x
-              %img.img-responsive{:alt => "", :src => "img/portfolio/cabin.png"}
+              %img.img-responsive{:alt => "", :src => "img/portfolio/rubocop.png"}
           .col-sm-4.portfolio-item
             %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModal2"}
               .caption
@@ -108,15 +108,35 @@
             %hr.star-light
         .row
           .col-lg-4.col-lg-offset-2
-            %p I'm a Junior at the Rochester Institute of Technology. I'm majoring software engineering with a minor in computer science and communications. I have two years experience building web applications for companies in the health domain. 
+            %h3 About Myself
+            %p
+              I'm a 3rd year student at the Rochester Institute of Technology.
+              I'm studying software engineering with a minor in computer science and communications.
+              I have passion for self improvement and I believe that this shows in my work. I've
+              taught myself the basics of a web framework (literally) overnight and have spent most
+              of my time learning how to learn quicker, faster, and more effectively.
+              I have two years experience building web applications for companies in the health domain.
+            %p
+              If you're looking to hire myself, I can offer competitive rates for a junior software
+              engineer and web designer position. I understand what I can (and cannot do) and can
+              provide reasonable estimations for my work because of the methods that I use.
           .col-lg-4
             %h3 Methodology
             %h4 Agile (Extreme Programming)
+            %p
+              I subscribe to the philosophy that it's impossible to know all of the ins and outs of a
+              finished project before building it. Because of this I follow an agile methodology allowing
+              changes in the design to be easily made. In addition, I use tools to ensure that time
+              can be spent developing and fixing issues without worrying about one small change breaking
+              and entire ssytem.
             %h4 Pomodoros
-            %img{src: "img/technique_pomodoro.jpg"}
-            %p Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+            %p
+              Pomodoros is a form of time management to easily measure out work that can be done by looking
+              at previous work. It is a form of time-boxing to see how time can be used most efficiently.
+              Because I use this technique, it's very easy to guage how long tasks should take along with
+              being able to analyze weak points in my process and make improvements in the future.
           .col-lg-8.col-lg-offset-2.text-center
-            %a.btn.btn-lg.btn-outline{:href => "#"}
+            %a.btn.btn-lg.btn-outline{:href => "mailto:BryonWilkins94@gmail.com"}
               %i.fa.fa-download
               Download Theme
     / Contact Section
@@ -134,6 +154,8 @@
               %a{href: "https://www.linkedin.com/in/bryonwilkins"}LinkedIn
             %h3 
               %a{href: "http://www.github.com/paradime"}GitHub
+            %h3
+              %a{href: "http://www.twitter.com/BryonRWilkins"}Twitter
             / To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
             / The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
             / %form#contactForm{:name => "sentMessage", :novalidate => ""}
@@ -175,6 +197,9 @@
               %h3 Around the Web
               %ul.list-inline
                 %li
+                  %a.btn-social.btn-outline{href: "https://www.twitter.com/BryonRWilkins/"}
+                    %i.fa.fa-fw.fa-twitter
+                %li
                   %a.btn-social.btn-outline{:href => "https://www.linkedin.com/in/bryonwilkins"}
                     %i.fa.fa-fw.fa-linkedin
                 %li
@@ -205,27 +230,31 @@
           .row
             .col-lg-8.col-lg-offset-2
               .modal-body
-                %h2 Project Title
+                %h2 Refactoring with Rubocop
                 %hr.star-primary
-                  %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/cabin.png"}
+                  %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/rubocop.png"}
                     %p
-                      Use this area of the page to describe your project. The icon above is part of a free icon set by
-                      = succeed "." do
-                        %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
-                      On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+                      Refactoring with Rubocop is ruby challenge intended to help teach the concepts of metaprogramming
+                      and refactoring to newer ruby users. The challenge brings you along a path of refactoring a
+                      project and refactoring bad code. In addition, there are elements of TDD available for
+                      newer users to familiarize themselves with the value of TDD.
                     %ul.list-inline.item-details
                       %li
                         Client:
                         %strong
-                          %a{:href => "http://startbootstrap.com"} Start Bootstrap
+                          %a{:href => "http://covermymeds.com"} CoverMyMeds
                       %li
                         Date:
                         %strong
-                          %a{:href => "http://startbootstrap.com"} April 2014
+                          %a{:href => "http://startbootstrap.com"} July 2015
                       %li
                         Service:
                         %strong
-                          %a{:href => "http://startbootstrap.com"} Web Development
+                          %a{:href => "http://startbootstrap.com"} Education
+                      %li
+                        Link:
+                        %strong
+                          %a{href: "https://github.com/paircolumbus/RefactoringWithRubocop"}}
                     %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
                       %i.fa.fa-times
                       Close
